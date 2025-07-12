@@ -26,7 +26,7 @@
 1. Clone repository ini:
 
 ```bash
-git clone https://github.com/satrioun/advanced-lfi-scanner.git
+git clone https://github.com/SatrioUN/LFI-fuzzer.git
 cd advanced-lfi-scanner
 ##Install dependencies (disarankan menggunakan virtual environment):
 pip install -r requirements.txt
