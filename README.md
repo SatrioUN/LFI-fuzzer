@@ -27,7 +27,7 @@
 
 ```bash
 git clone https://github.com/SatrioUN/LFI-fuzzer.git
-cd advanced-lfi-scanner
+cd LFI-fuzzer
 ##Install dependencies (disarankan menggunakan virtual environment):
 pip install -r requirements.txt
 Catatan: Pastikan Anda sudah menginstall wkhtmltopdf untuk fitur generate PDF (https://wkhtmltopdf.org/).
