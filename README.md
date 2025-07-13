@@ -51,8 +51,18 @@
 ## 🚀 Penggunaan
 
 ```bash
+<<<<<<< HEAD
 python3 lfi.py -u "http://target.com/vuln.php?file=page" -c 20 --output-html report.html --output-csv report.csv --output-json report.json
 ```
+=======
+git clone https://github.com/SatrioUN/LFI-fuzzer.git
+cd LFI-fuzzer
+##Install dependencies (disarankan menggunakan virtual environment):
+pip install -r requirements.txt
+Catatan: Pastikan Anda sudah menginstall wkhtmltopdf untuk fitur generate PDF (https://wkhtmltopdf.org/).
+sudo apt-get install wkhtmltopdf
+'''bash
+>>>>>>> 62e3cbb01ea39eed5075d00d9890ce65aeb4aef4
 
 ### Opsi Utama:
 
@@ -92,9 +102,17 @@ python lfi.py -U targets.txt -P proxies.txt --output-csv results.csv
 Gunakan alat ini **hanya untuk pengujian keamanan pada sistem milik Anda sendiri** atau sistem yang Anda memiliki **izin eksplisit** untuk menguji.  
 **Developer tidak bertanggung jawab atas penyalahgunaan alat ini.**
 
+<<<<<<< HEAD
 ---
 
 ## 📬 Kontak
 
 **Developer:** SatrioUN  
 **Instagram:** [@rioocns](https://instagram.com/rioocns)
+=======
+Disclaimer
+Alat ini hanya untuk tujuan edukasi dan pengujian 
+keamanan pada sistem yang Anda miliki atau memiliki 
+izin eksplisit untuk diuji. Penggunaan tanpa izin 
+adalah ilegal dan bertanggung jawab sepenuhnya pada pengguna.
+>>>>>>> 62e3cbb01ea39eed5075d00d9890ce65aeb4aef4
